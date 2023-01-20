@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 150vh;
+  display: flex;
+  font-family: "Manrope";
+}
+
+.navBar {
+  flex: 2;
+  background-color: #0f1222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  padding-left: 16px;
+}
+
+.logo {
+  margin-bottom: 48px;
+}
+
+.navigationItem {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 12px;
+  height: 46px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.navigationItem:hover {
+  background-color: #0062ff;
+}
+
+.navigationText {
+  margin-left: 12px;
+  font-size: 15.46px;
+  color: #fcfcfd;
+  font-weight: 600;
+}
+
+.content {
+  flex: 8;
+  background-color: #fafafb;
+}
+
+.header {
+  background-color: #fff;
+  height: 96px;
+  padding: 0 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #0f1222;
+  font-weight: 700;
+}
+
+.greetingContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.greeting {
+  font-size: 23.18px;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+}
+
+.bellContainer {
+  height: 46px;
+  width: 46px;
+  background-color: #f9fbff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 38px;
+}
+
+.name {
+  font-size: 19.32px;
+  margin: 0 12px;
+}
+
+.innerContent {
+  width: 100%;
+  height: calc(100% - 96px);
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.infoCards {
+  margin: 30px 30px 0 30px;
+  flex: 5;
+  gap: 30px;
+  display: flex;
+}
+
+.cardsContainer {
+  flex: 4;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.balance {
+  flex: 1.9;
+  border-radius: 6px;
+  background-color: white;
+  padding: 24px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitleContainer {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.balanceValue {
+  font-weight: 700;
+  font-size: 2.05rem;
+}
+
+.balanceStatus {
+  color: #344054;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.favTransfers {
+  flex: 2.45;
+  padding: 24px;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.seeAll {
+  font-size: 0.8rem;
+  color: #1d2939;
+}
+.transferprofiles {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 12px 0 12px 20px;
+  margin-top: 19.43px;
+  margin-bottom: 10px;
+  border-radius: 5.8px;
+  border: solid 1px #eaecf0;
+}
+.transferprofiles p {
+  font-size: 0.98rem;
+  font-weight: 700;
+  margin-left: 14.49px;
+}
+
+.chart {
+  flex: 6;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.transactionsTable {
+  border-radius: 6px;
+  margin: 0 30px 30px 30px;
+  flex: 3;
+  background-color: white;
+}
+
+.insights {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 24px;
+}
+
+.moneyinout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #667085;
+  gap: 10px;
+  padding-right: 24px;
+}
+.moneyout {
+  height: 7.78px;
+  width: 7.78px;
+  border-radius: 50%;
+  background-color: #4d91ff;
+}
+.moneyin {
+  height: 7.78px;
+  width: 7.78px;
+  border-radius: 50%;
+  background-color: #99c0ff;
+}
+.actualgraph {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.graphTendencies {
+  margin-top: 79px;
+  margin-left: 64px;
+  display: flex;
+  position: absolute;
+  height: 200px;
+  gap: 28px;
+  align-items: flex-end;
+}
+
+.underbar {
+  height: 120px;
+  width: 15.46px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  align-self: flex-end;
+  background-color: #4d91ff;
+}
+
+.graphTendencies > div {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  background-color: #99c0ff;
+  width: 15.46px;
+  justify-content: space-between;
+}
+
+.barnr1 {
+  height: 238px;
+}
+.barnr2 {
+  height: 269px;
+}
+
+.barnr3 {
+  height: 207px;
+}
+.barnr4 {
+  height: 245px;
+}
+.barnr5 {
+  height: 208px;
+}
+.barnr6 {
+  height: 261px;
+}
+.barnr7 {
+  height: 238px;
+}
+.barnr8 {
+  height: 245px;
+}
+.barnr9 {
+  height: 238px;
+}
+.barnr10 {
+  height: 250px;
+}
+.barnr11 {
+  height: 269px;
+}
+.barnr12 {
+  height: 230px;
+}
+
+.graphline {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 24px;
+}
+.horizontalLines {
+  display: flex;
+  flex: 1;
+  height: 1px;
+  width: 360px;
+  background-color: #f2f4f7;
+  margin-left: 10px;
+  justify-content: center;
+}
+
+.months {
+  padding-top: 10px;
+  padding-left: 48px;
+  padding-right: 24px;
+  display: flex;
+  flex-diretion: row;
+  flex: 1;
+  justify-content: space-between;
+  color: #667085;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.graphtext {
+  color: #667085;
+  font-size: 0.75rem;
+  font-weight: 400;
+  width: 40px;
+}
+
+.transactionsTable {
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+}
+
+.transactionsProfileContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+}
+.legend {
+  font-weight: 600;
+  padding: 12px 19.32px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  border: #eaecf0 1px solid;
+  border-radius: 6px;
+}
+
+.specificProfiles {
+  border: #eaecf0 1px solid;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 12px 19.32px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.specificProfiles img {
+  margin-right: 6px;
+}
+.moneystats0 {
+  display: flex;
+  flex: 1;
+}
+
+.moneystats {
+  display: flex;
+  flex: 0.65;
+}
+.moneystats1 {
+  font-size: 0.7rem;
+  font-weight: bold;
+  background-color: lightgreen;
+  align-items: center;
+  border-radius: 32px;
+  height: 10%;
+  color: green;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex: 0.39;
+}
+.outterred {
+  font-size: 0.7rem;
+  font-weight: bold;
+  background-color: rgb(252, 142, 142);
+  align-items: center;
+  border-radius: 32px;
+  height: 10%;
+  color: red;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex: 0.39;
+}
+.moneystats2 {
+  margin-left: 80px;
+  display: flex;
+  flex: 0.71;
+  justify-content: center;
+}
+.moneystats3 {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0.72;
+}
+
+.moneystats1red {
+  font-size: 0.7rem;
+  font-weight: bold;
+  background-color: rgb(252, 142, 142);
+  align-items: center;
+  border-radius: 32px;
+  height: 10%;
+  color: red;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex: 0.39;
+}
